@@ -10,7 +10,7 @@
 :root{
 	--bg-color: rgb(255, 255, 255); 
 	--text-color: #fff;
-	--main-color: rgb(255, 8, 8);
+	--main-color: rgb(71, 157, 255);
 }
 body{
 	min-height: 100vh;

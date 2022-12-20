@@ -16,7 +16,7 @@ export default function Navbar() {
     <div>
       <header>
             {/* <Link to='#' className='logo'><img src="static/images/logo.png"/><span>Logo</span></Link> */}
-            {/* <Link to='/' className='logo'><img src="static/images/logotest.png"/></Link> */}
+            <a href='#' className='logo'><img src="static/images/logotest.png"/></a>
             <ul className='navbar'>
               <li><a href="#">Home</a></li>
               <li><a href="#">About Us</a></li>
