@@ -1,0 +1,80 @@
+.concontainer{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    padding: 20px 100px;
+    min-height: 100vh;
+}
+
+.contact-box{
+    max-width: 1000px;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: #fff;
+    box-shadow: 1px 2px 5rem 5px rgb(102, 102, 102);
+}
+.contactleft{
+    height: 100%;
+    background: url("images/contactgirl.jpg") no-repeat center;
+    background-size: cover;
+}
+.contactleft img{
+    object-fit: cover;
+}
+.right{
+    padding: 25px 40px;
+}
+.concontainer h2{
+    color: black;
+    position: relative;
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+}
+.contact-box h2:after{
+    content:'';
+    position: absolute;
+    left: 50%;
+    bottom: 0;
+    transform: translateX(-50%);
+    height: 4px;
+    width: 50px;
+    border-radius: 2px;
+    background-color: #2dc0ca;
+}
+.field{
+    width: 100%;
+    padding: 0.5rem 1rem;
+    outline: none;
+    border: 2px solid rgba(0,0,0,0,);
+    border-style: solid;
+    font-size: 1.1rem;
+    margin-bottom: 22px;
+    transition: .3s;
+}
+.field:hover{
+    background-color: rgba(0,0,0,0.1);
+}
+.field:focus{
+    background-color: #fff;
+    border: 2px solid rgba(30,85,250,0.47);
+}
+.area{
+    min-height: 150px ;
+}
+@media screen and (max-width:880px){
+    .contact-box{
+        grid-template-columns: 1fr;
+    }
+    .left{
+        height: 200px;
+    } 
+    .concontainer {
+        margin: 3.5rem 0rem;
+        padding: 0px 10px;
+    }
+}

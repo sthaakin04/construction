@@ -21,7 +21,7 @@ export default function Navbar() {
               <li><Link to="/">Home</Link></li>
               <li><a href="#">About Us</a></li>
               <li><Link to="/projects">Our Projects</Link></li>
-              <li><a href="#">Contact Us</a></li>
+              <li><Link to="/contact">Contact Us</Link></li>
             </ul>
             <div className='main'>
                 <div className='bx bx-menu' id="menu-icon" onClick={menu}></div>

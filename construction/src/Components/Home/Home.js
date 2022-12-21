@@ -17,17 +17,9 @@ export default function Home() {
 
                 if(revealtop < windowheight - revealpoint){
                     reveals[i].classList.add('active');
-                    if(i===1 || i==2){
-                        reveals[i].classList.remove('active');
-                        reveals[i].classList.add('actives');
-                    }
-                    else{
-                        reveals[i].classList.remove('actives');
-                    }
                 }
                 else{
-                    reveals[i].classList.remove('active');
-                    reveals[i].classList.remove('actives');    
+                    reveals[i].classList.remove('active');  
                 }
             }
         }
@@ -58,12 +50,6 @@ export default function Home() {
                             <p>Construction is good for health. Without construction we cannot develop country. Construction plays a vital role in everyone's life.</p>
                         </div>
                     </div>
-                    <div className="text-card">
-                        <div className="cardcontent">
-                            <img src="static/images/cons1.jpg"/>
-                            <p>Construction is good for health. Without construction we cannot develop country. Construction plays a vital role in everyone's life.</p>
-                        </div>
-                    </div>
                 </div>
             </div>
         </section>
@@ -83,10 +69,6 @@ export default function Home() {
                         <img src="static/images/cons3.jpg"/>
                         <p>Construction is good for health. Without construction we cannot develop country. Construction plays a vital role in everyone's life.</p>
                     </div>
-                    <div className="text-card">
-                        <img src="static/images/cons4.webp"/>
-                        <p>Construction is good for health. Without construction we cannot develop country. Construction plays a vital role in everyone's life.</p>
-                    </div>
                 </div>
             </div>
         </section>
@@ -104,10 +86,6 @@ export default function Home() {
                     </div>
                     <div className="text-card">
                         <img src="static/images/cons3.jpg"/>
-                        <p>Construction is good for health. Without construction we cannot develop country. Construction plays a vital role in everyone's life.</p>
-                    </div>
-                    <div className="text-card">
-                        <img src="static/images/cons4.webp"/>
                         <p>Construction is good for health. Without construction we cannot develop country. Construction plays a vital role in everyone's life.</p>
                     </div>
                 </div>
