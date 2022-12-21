@@ -124,7 +124,7 @@ header{
 	}
 	.navbar a{
 		display: block;
-		margin: 12px 0;
+		margin: 24px 0;
 		padding: 0px 25px;
 		transition: all .50s ease;
         color: var(--text-color);
