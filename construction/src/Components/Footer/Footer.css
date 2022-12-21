@@ -1,0 +1,101 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+ul{
+    padding: 0;
+}
+.frow{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    justify-content: center;
+} 
+.fcontainer{
+    /* max-width: 1170px; */
+    background-color: #333;
+    margin: auto;
+}
+.footer{
+	/* position: absolute;
+	bottom: 0rem; */
+	width: 100%;
+    background-color: #24262b;
+    padding: 20px 0;
+	clear: both;
+	height: 0px;
+}
+.footer-col{
+    width: 30%;
+    padding: 5px 15px;
+}
+.footer-col h1{
+    margin: 10px 0px;
+    margin-left: 0px;
+    font-size: 18px;
+    color: white;
+    text-transform: capitalize;
+    margin-bottom: 20px; 
+    position: relative;
+    /* the element is positioned relative to its normal position in relative */
+}
+ul{
+    list-style: none;
+}
+.footer-col:nth-child(1){
+    padding-top: 1rem ;
+}
+.footer-col:nth-child(1) h3,.social-links{
+    margin-top: 1rem ;
+}
+.footer-col h1::before{
+    content: '';
+    position: absolute;
+    /* the element is positioned absolutely to its first positioned parent */
+    left: 0;
+    bottom: -10px;
+    background-color: rgb(35, 156, 212);
+    height: 2.5px;
+    box-sizing: border-box;
+    width: 60px;
+}
+.footer-col ul li:not(:last-child){
+    margin-bottom: 10px;
+}
+.footer-col ul li a{
+    font-size: 15px;
+    text-transform: capitalize;
+    color: white;
+    font-weight: 300;
+    display: block;
+    text-decoration: none;
+}
+.footer-col p{
+    font-weight: 300;
+    color: white;
+}
+
+.footer-col ul li a:hover{
+    color: rgb(35, 156, 212);
+}
+.footer-col .social-links a{
+    display: inline-block;
+    height: 40px;
+    width: 40px;
+    background-color: rgba(255, 255, 255, 0.2);
+    margin: 0 10px 10px 0;
+    text-align: center;
+    line-height: 40px;
+    border-radius: 50%;
+    color: white;
+}
+.footer-col .social-links a:hover{
+    color: #24262b;
+    background-color: white;
+}
+
+@media screen and (max-width:500px){
+	.footer-col{
+        width: 100%;
+    }
+}
