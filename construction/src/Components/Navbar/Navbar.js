@@ -19,7 +19,7 @@ export default function Navbar() {
             <a href='#' className='logo'><img src="static/images/logotest.png"/></a>
             <ul className='navbar'>
               <li><Link to="/">Home</Link></li>
-              <li><a href="#">About Us</a></li>
+              <li><Link to="/about">About Us</Link></li>
               <li><Link to="/projects">Our Projects</Link></li>
               <li><a href="#">Contact Us</a></li>
             </ul>

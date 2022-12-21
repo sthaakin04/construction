@@ -54,7 +54,7 @@ section .cards .text-card h3{
     width: 100%;
 }
 .text-card{
-    width: 22%;
+    width: 21%;
     float: left;
 }
 @media (max-width:1024px){
@@ -62,11 +62,11 @@ section .cards .text-card h3{
         font-size: 40px;
     }
     .text-card{
-        width: 45%;
+        width: 44%;
         float: left;
     }
 }
-@media (max-width:480px){
+@media (max-width:600px){
     section h1{
         font-size: 40px;
     }
