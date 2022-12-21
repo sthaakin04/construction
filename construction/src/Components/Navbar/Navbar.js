@@ -18,9 +18,9 @@ export default function Navbar() {
             {/* <Link to='#' className='logo'><img src="static/images/logo.png"/><span>Logo</span></Link> */}
             <a href='#' className='logo'><img src="static/images/logotest.png"/></a>
             <ul className='navbar'>
-              <li><a href="#">Home</a></li>
+              <li><Link to="/">Home</Link></li>
               <li><a href="#">About Us</a></li>
-              <li><a href="#">Our Projects</a></li>
+              <li><Link to="/projects">Our Projects</Link></li>
               <li><a href="#">Contact Us</a></li>
             </ul>
             <div className='main'>

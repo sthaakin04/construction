@@ -1,5 +1,6 @@
 import React,{useEffect} from 'react'
 import './Home.css'
+import HomeSlider from '../Homeslider/Homeslider';
 export default function Home() {
     useEffect(() => {
         window.addEventListener('scroll',reveal);
@@ -7,6 +8,7 @@ export default function Home() {
         function reveal(){
             var reveals = document.querySelectorAll('.reveal');
             // console.log(window.innerHeight);
+            // console.log(reveals.length)
             for(var i=0;i<reveals.length;i++){
                 var windowheight = window.innerHeight;
                 var revealtop = reveals[i].getBoundingClientRect().top;
@@ -15,98 +17,103 @@ export default function Home() {
 
                 if(revealtop < windowheight - revealpoint){
                     reveals[i].classList.add('active');
-                    if(i===1){
+                    if(i===1 || i==2){
                         reveals[i].classList.remove('active');
                         reveals[i].classList.add('actives');
+                    }
+                    else{
+                        reveals[i].classList.remove('actives');
                     }
                 }
                 else{
                     reveals[i].classList.remove('active');
-                    reveals[i].classList.remove('actives');
+                    reveals[i].classList.remove('actives');    
                 }
             }
         }
     });
   return (
-    <div>
-        <section>
-        <div class="container reveal">
-            <h2>Construction</h2>
-            <div class="cards">
-                <div class="text-card">
-                    <div class="cardcontent">
-                        <img src="static/images/cons1.jpg"/>
-                        <p>Construction is good for health. Without construction we cannot develop country. Construction plays a vital role in everyone's life.</p>
-                    </div>
-                </div>
-
-                <div class="text-card">
-                    <div class="cardcontent">
+        <div>
+            <HomeSlider/>
+            <section>
+            <div className="container reveal">
+                <h2>Construction</h2>
+                <div className="cards">
+                    <div className="text-card">
+                        <div className="cardcontent">
                             <img src="static/images/cons1.jpg"/>
                             <p>Construction is good for health. Without construction we cannot develop country. Construction plays a vital role in everyone's life.</p>
+                        </div>
+                    </div>
+
+                    <div className="text-card">
+                        <div className="cardcontent">
+                                <img src="static/images/cons1.jpg"/>
+                                <p>Construction is good for health. Without construction we cannot develop country. Construction plays a vital role in everyone's life.</p>
+                        </div>
+                    </div>
+                    <div className="text-card">
+                        <div className="cardcontent">
+                            <img src="static/images/cons1.jpg"/>
+                            <p>Construction is good for health. Without construction we cannot develop country. Construction plays a vital role in everyone's life.</p>
+                        </div>
+                    </div>
+                    <div className="text-card">
+                        <div className="cardcontent">
+                            <img src="static/images/cons1.jpg"/>
+                            <p>Construction is good for health. Without construction we cannot develop country. Construction plays a vital role in everyone's life.</p>
+                        </div>
                     </div>
                 </div>
-                <div class="text-card">
-                    <div class="cardcontent">
+            </div>
+        </section>
+        <section>
+            <div className="container reveal">
+                <h2>Construction</h2>
+                <div className="cards">
+                    <div className="text-card">
                         <img src="static/images/cons1.jpg"/>
                         <p>Construction is good for health. Without construction we cannot develop country. Construction plays a vital role in everyone's life.</p>
                     </div>
-                </div>
-                <div class="text-card">
-                    <div class="cardcontent">
-                        <img src="static/images/cons1.jpg"/>
+                    <div className="text-card">
+                        <img src="static/images/cons2.jpg"/>
+                        <p>Construction is good for health. Without construction we cannot develop country. Construction plays a vital role in everyone's life.</p>
+                    </div>
+                    <div className="text-card">
+                        <img src="static/images/cons3.jpg"/>
+                        <p>Construction is good for health. Without construction we cannot develop country. Construction plays a vital role in everyone's life.</p>
+                    </div>
+                    <div className="text-card">
+                        <img src="static/images/cons4.webp"/>
                         <p>Construction is good for health. Without construction we cannot develop country. Construction plays a vital role in everyone's life.</p>
                     </div>
                 </div>
             </div>
-        </div>
-    </section>
-    <section>
-        <div class="container reveal">
-            <h2>Construction</h2>
-            <div class="cards">
-                <div class="text-card">
-                    <img src="static/images/cons1.jpg"/>
-                    <p>Construction is good for health. Without construction we cannot develop country. Construction plays a vital role in everyone's life.</p>
-                </div>
-                <div class="text-card">
-                    <img src="static/images/cons2.jpg"/>
-                    <p>Construction is good for health. Without construction we cannot develop country. Construction plays a vital role in everyone's life.</p>
-                </div>
-                <div class="text-card">
-                    <img src="static/images/cons3.jpg"/>
-                    <p>Construction is good for health. Without construction we cannot develop country. Construction plays a vital role in everyone's life.</p>
-                </div>
-                <div class="text-card">
-                    <img src="static/images/cons4.webp"/>
-                    <p>Construction is good for health. Without construction we cannot develop country. Construction plays a vital role in everyone's life.</p>
-                </div>
-            </div>
-        </div>
-    </section>
-    <section>
-        <div class="container reveal">
-            <h2>Construction</h2>
-            <div class="cards">
-                <div class="text-card">
-                    <img src="static/images/cons1.jpg"/>
-                    <p>Construction is good for health. Without construction we cannot develop country. Construction plays a vital role in everyone's life.</p>
-                </div>
-                <div class="text-card">
-                    <img src="static/images/cons2.jpg"/>
-                    <p>Construction is good for health. Without construction we cannot develop country. Construction plays a vital role in everyone's life.</p>
-                </div>
-                <div class="text-card">
-                    <img src="static/images/cons3.jpg"/>
-                    <p>Construction is good for health. Without construction we cannot develop country. Construction plays a vital role in everyone's life.</p>
-                </div>
-                <div class="text-card">
-                    <img src="static/images/cons4.webp"/>
-                    <p>Construction is good for health. Without construction we cannot develop country. Construction plays a vital role in everyone's life.</p>
+        </section>
+        <section>
+            <div className="container reveal">
+                <h2>Construction</h2>
+                <div className="cards">
+                    <div className="text-card">
+                        <img src="static/images/cons1.jpg"/>
+                        <p>Construction is good for health. Without construction we cannot develop country. Construction plays a vital role in everyone's life.</p>
+                    </div>
+                    <div className="text-card">
+                        <img src="static/images/cons2.jpg"/>
+                        <p>Construction is good for health. Without construction we cannot develop country. Construction plays a vital role in everyone's life.</p>
+                    </div>
+                    <div className="text-card">
+                        <img src="static/images/cons3.jpg"/>
+                        <p>Construction is good for health. Without construction we cannot develop country. Construction plays a vital role in everyone's life.</p>
+                    </div>
+                    <div className="text-card">
+                        <img src="static/images/cons4.webp"/>
+                        <p>Construction is good for health. Without construction we cannot develop country. Construction plays a vital role in everyone's life.</p>
+                    </div>
                 </div>
             </div>
-        </div>
-    </section>
+        </section>
     </div>
   )
 }
+

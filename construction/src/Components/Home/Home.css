@@ -4,7 +4,7 @@
     box-sizing: border-box;
     font-family: "Poppins",sans-serif;
 }
-body{
+section{
     background: lightblue;
 }
 section{
@@ -13,18 +13,18 @@ section{
     justify-content: center;
     align-items: center; 
 }
-section:nth-child(1){
+section:nth-child(2){
     /*first section only */
     color: #fff;
 }
-section:nth-child(2) h2{
+section:nth-child(3) h2{
     color: black;
 }
-section:nth-child(2){
+section:nth-child(3){
     /*second section only */
     background: #fff;
 }
-section:nth-child(3){
+section:nth-child(4){
     color: #fff;
 }
 section .container {

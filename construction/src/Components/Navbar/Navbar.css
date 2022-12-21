@@ -10,7 +10,7 @@
 :root{
 	--bg-color: rgb(255, 255, 255); 
 	--text-color: #fff;
-	--main-color: rgb(71, 157, 255);
+	--main-color: rgb(45, 213, 255);
 }
 body{
 	min-height: 100vh;
@@ -124,7 +124,7 @@ header{
 	}
 	.navbar a{
 		display: block;
-		margin: 12px 0;
+		margin: 24px 0;
 		padding: 0px 25px;
 		transition: all .50s ease;
         color: var(--text-color);
