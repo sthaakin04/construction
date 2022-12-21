@@ -10,7 +10,7 @@
 :root{
 	--bg-color: rgb(255, 255, 255); 
 	--text-color: #fff;
-	--main-color: rgb(71, 157, 255);
+	--main-color: rgb(45, 213, 255);
 }
 body{
 	min-height: 100vh;
@@ -155,7 +155,7 @@ ul{
 .maincontent{
 	position: relative;
 }
-img, svg {
+.logo img, svg {
     vertical-align: middle;
     height: 40px;
 }
