@@ -17,13 +17,13 @@
     background-color: var(--selection-bg);
   }
   
-  body {
+  .project {
     background-color: var(--body-bg);
     color: var(--dark-grey);
     font-family: var(--primary-font);
     letter-spacing: 0.03125rem;
     margin-top: 30px;
-  }
+  } */
   
   ol {
     list-style-type: none;

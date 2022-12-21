@@ -1,10 +1,9 @@
 import React from 'react'
-import "./HomeContents.css"
+import "./Projects.css"
 
-export default function HomeContents() {
+export default function Projects() {
   return (
-    <div>
-        
+    <div className='project'>
         <ol className="cards__container" title="Blog entries">
         <li className="card">
             <div className="card__thumb"><img className="animate" src="https://raw.githubusercontent.com/Javieer57/CODEPEN-gnarly-grid-cards/main/assets/img-1.png"/></div>
