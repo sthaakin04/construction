@@ -62,7 +62,7 @@ section .cards .text-card h3{
         font-size: 40px;
     }
     .text-card{
-        width: 45%;
+        width: 44%;
         float: left;
     }
 }
