@@ -4,7 +4,7 @@
     width:100%;
     position:relative;
     overflow:hidden;
-    margin-top: 4rem;
+    /* margin-top: 4rem; */
   }
   @keyframes load{
     from{left:-100%;}

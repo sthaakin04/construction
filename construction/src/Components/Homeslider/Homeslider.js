@@ -14,7 +14,7 @@ export default function Homeslider() {
                     </div>
                 </div>
                 <div className="image">
-                    <img src="https://cdn.stocksnap.io/img-thumbs/960w/VVHE6VHMAW.jpg"/>
+                    <img src="static/images/const1.jpg"/>
                 </div>
                 </div>
                 <div className="slider">
@@ -26,7 +26,7 @@ export default function Homeslider() {
                     </div>
                 </div>
                 <div className="image">
-                    <img src="https://cdn.stocksnap.io/img-thumbs/960w/AKWVXIXFA8.jpg"/>
+                    <img src="static/images/const2.jpg"/>
                 </div>
                 </div>
                 <div className="slider">
@@ -38,7 +38,7 @@ export default function Homeslider() {
                     </div>
                 </div>
                 <div className="image">
-                    <img src="https://cdn.stocksnap.io/img-thumbs/960w/TPLJK7JPRR.jpg"/>
+                    <img src="static/images/const3.jpg"/>
                 </div>
                 </div>
                 <div className="slider">
@@ -50,7 +50,7 @@ export default function Homeslider() {
                     </div>
                 </div>
                 <div className="image">
-                    <img src="https://cdn.stocksnap.io/img-thumbs/960w/XJ2BKV9ASS.jpg"/>
+                    <img src="static/images/const4.jpg"/>
                 </div>
                 </div>
             </div>
