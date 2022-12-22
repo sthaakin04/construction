@@ -6,7 +6,7 @@ export default function About() {
         <div className="wrapper">
         <div className="row">
             <div className="image-section">
-                <img src="static/images/company.webp"/>
+                <img src="static/images/const.jpg"/>
             </div>
             <div className="aboutcontent">
                 <h1>About Us</h1>
