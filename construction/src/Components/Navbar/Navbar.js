@@ -26,7 +26,7 @@ export default function Navbar() {
             <div className='main'>
                 <div className='bx bx-menu' id="menu-icon" onClick={menu}></div>
             </div>
-        </header>
+      </header>
     </div>
   )
 }

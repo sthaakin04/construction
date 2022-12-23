@@ -11,6 +11,8 @@
 	--bg-color: rgb(255, 255, 255); 
 	--text-color: #fff;
 	--main-color: rgb(45, 213, 255);
+	/* --nav-color: rgba(0,0,0,.5); */
+	--nav-color: black;
 }
 body{
 	min-height: 100vh;
@@ -27,7 +29,7 @@ header{
 	display: flex;
 	align-items: center;
 	justify-content: space-between;
-	background: rgba(0,0,0,.5);
+	background: var(--nav-color);
 	padding: 28px 12%;
 	transition: all .50s ease;
 }
@@ -113,13 +115,13 @@ header{
 	.navbar{
 		position: absolute;
 		top: 100%;
-		right: -100%;
+		left: -100%;
 		/* width: 270px; */
 		/* background: var(--main-color); */
 		display: flex;
 		flex-direction: column;
 		justify-content: flex-start;
-		border-radius: 5px;
+		/* border-radius: 5px; */
 		transition: all .50s ease;
 	}
 	.navbar a{
@@ -137,8 +139,9 @@ header{
 		color: var(--bg-color);
 	}
 	.navbar.open{
-		right: 0%;
-		background: rgba(0,0,0,.5);
+		left: 0%;
+		background: var(--nav-color);
+		width: -webkit-fill-available;
 	}
 }
 .alert{
